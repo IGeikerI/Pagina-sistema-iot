@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'iot',
+    
 ]
 
 REST_FRAMEWORK = {
@@ -98,9 +99,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'cGNVlwgwhafitMuUUIBIhGOeJCqAPRJc',
-        'HOST': 'metro.proxy.rlwy.net',
-        'PORT': '11459',
+        'PASSWORD': 'puRSzWGezQHNLUBqbPumiyqiBNkFxsNL',
+        'HOST': 'shuttle.proxy.rlwy.net',
+        'PORT': '56217',
+        'OPTIONS': {
+        'ssl': {'ssl': {}},
+}
     }
 }
 
