@@ -13,3 +13,5 @@ build/
 
 # Otros
 .env
+venv/
+backend/venv/
